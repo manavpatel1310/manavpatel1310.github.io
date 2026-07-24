@@ -13,6 +13,7 @@ export const profile = {
 
 export const about = [
 	"I'm a Full Stack Developer with 2+ years of hands-on experience building public-facing, content-driven websites and customer-facing web applications. I currently build financial-sector applications at TechMero, working across React/TypeScript front-ends, Java Spring Boot and Node.js services, and AWS infrastructure.",
+	"I've worked across the full SDLC in both startup and enterprise-style environments — optimizing large-scale SQL databases, debugging production issues, integrating third-party hardware like biometric Face ID devices, and delivering end-to-end client projects independently. I'm comfortable switching between stacks, whether that's .NET backend services, React front-ends, Node.js systems, or Linux-based C programming.",
 	"I'm an AWS Certified Solutions Architect – Associate with a test-driven mindset — I reach for Playwright early, keep Git workflows clean, and use AI-assisted development tools like Claude Code and GitHub Copilot to move faster without sacrificing quality.",
 ];
 
@@ -59,6 +60,8 @@ export const experience: Experience[] = [
 			"Design and build full-stack financial-sector web applications — responsive React + TypeScript front-ends with Java Spring Boot and Node.js backend services.",
 			"Architect and maintain RESTful APIs and relational/NoSQL data layers across SQL Server and MongoDB.",
 			"Deploy and scale services on AWS (Lambda, EC2, S3), managing cloud infrastructure.",
+			"Build reusable React/TypeScript component libraries with hooks and strict typing, reducing UI duplication across financial-sector apps.",
+			"Enforce CI-friendly Git workflows — feature branches and PR reviews — and code quality standards across the team.",
 			"Lead code reviews and partner with cross-functional teams to turn business requirements into production-ready features.",
 		],
 	},
@@ -71,6 +74,7 @@ export const experience: Experience[] = [
 		highlights: [
 			"Built responsive React components in TypeScript — patient dashboard, appointment scheduling calendar, and secure messaging — for a healthcare patient-engagement platform, aligned with WCAG standards.",
 			"Integrated RESTful APIs powering appointment booking, lab-result retrieval, and notifications in an Agile/Scrum environment.",
+			"Participated in code reviews and maintained clean Git branching workflows across a fully remote, distributed team.",
 		],
 	},
 	{
@@ -83,6 +87,8 @@ export const experience: Experience[] = [
 			"Delivered a customer-facing barcode management application end-to-end, cutting data-capture processing time by 40% across 3 live client deployments.",
 			"Optimized SQL and Oracle stored procedures against a 5M+ record dataset, improving query performance by 20%.",
 			"Owned a client barcode software project independently from scratch through delivery.",
+			"Integrated Verdi Face ID biometric devices, enabling real-time authentication and secure access control in enterprise systems.",
+			"Performed debugging and root-cause analysis on .NET applications to resolve production and client-reported issues.",
 		],
 	},
 	{
@@ -95,6 +101,7 @@ export const experience: Experience[] = [
 			"Built responsive React components driving a 35% lift in user engagement and 20% faster page loads through REST API performance tuning.",
 			"Translated Figma design specs into responsive interfaces with SASS and Bootstrap.",
 			"Containerized React application modules with Docker and configured Kubernetes deployment manifests.",
+			"Documented API request/response schemas and error codes to industry standards, cutting integration time for other developers.",
 		],
 	},
 	{
@@ -106,6 +113,8 @@ export const experience: Experience[] = [
 		highlights: [
 			"Engineered scalable Node.js microservices on AWS Lambda, integrating SQL and MongoDB data stores for high-performance financial-sector applications.",
 			"Authored RESTful API documentation to industry standards, easing integration for partner teams.",
+			"Wrote unit tests with TestNG, JUnit, and Mockito to keep releases reliable and stable.",
+			"Used Jenkins CI/CD pipelines to cut deployment times, deploying to AWS EC2 with S3 for cloud storage.",
 		],
 	},
 ];
@@ -202,7 +211,7 @@ export const projects: Project[] = [
 			"Tuned action-detection threshold to a 95% accuracy rate for alarm triggering.",
 		],
 		technologies: ["Python", "OpenCV", "Keras", "CNN", "Pygame"],
-		codeUrl: "https://github.com/manavpatel1310",
+		codeUrl: "https://github.com/manavpatel1310/Drive-Watch-System",
 	},
 ];
 
