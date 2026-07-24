@@ -51,7 +51,7 @@ export type Experience = {
 
 export const experience: Experience[] = [
 	{
-		title: "Full Stack Developer",
+		title: "Full Stack Engineer",
 		company: "TechMero Pvt. Ltd.",
 		location: "Gujarat, India (Remote)",
 		period: "Oct 2025 – Present",
@@ -66,7 +66,7 @@ export const experience: Experience[] = [
 		],
 	},
 	{
-		title: "Front-End Developer Intern",
+		title: "Database Developer",
 		company: "Interact Health PRO",
 		location: "Toronto, ON (Remote)",
 		period: "Feb 2025 – May 2025",
@@ -115,6 +115,18 @@ export const experience: Experience[] = [
 			"Authored RESTful API documentation to industry standards, easing integration for partner teams.",
 			"Wrote unit tests with TestNG, JUnit, and Mockito to keep releases reliable and stable.",
 			"Used Jenkins CI/CD pipelines to cut deployment times, deploying to AWS EC2 with S3 for cloud storage.",
+		],
+	},
+	{
+		title: "Python & Power BI Developer",
+		company: "VNurture Technologies",
+		location: "Ahmedabad, India",
+		period: "Jun 2022 – Aug 2022",
+		technologies: ["Python", "Power BI", "Power Query", "DAX"],
+		highlights: [
+			"Designed 4+ Power BI dashboards tracking KPIs and business metrics, cutting manual reporting time by 40% for internal stakeholders.",
+			"Built Power BI data models with Power Query and DAX, creating calculated measures across multi-source datasets for real-time reporting.",
+			"Developed web application components in Python and visualization reports monitoring user engagement and platform performance.",
 		],
 	},
 ];
