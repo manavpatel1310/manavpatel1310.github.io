@@ -27,14 +27,20 @@ test("experience timeline lists current role", async ({ page }) => {
 
 test("project cards link out to live site and code", async ({ page }) => {
 	await page.goto("/");
-	const portfolioCard = page.getByRole("article").filter({ hasText: "Personal Portfolio & Blog" });
-	await expect(portfolioCard.getByRole("link", { name: "Live →" })).toHaveAttribute(
+	await expect(page.getByRole("article")).toHaveCount(8);
+	const blogCard = page.getByRole("article").filter({ hasText: "Personal Blog & CMS" });
+	await expect(blogCard.getByRole("link", { name: "Live →" })).toHaveAttribute(
 		"href",
-		"https://manavpatel1310.github.io/"
+		"https://personalblog-omega-seven.vercel.app/"
 	);
-	await expect(portfolioCard.getByRole("link", { name: "Code →" })).toHaveAttribute(
+	await expect(blogCard.getByRole("link", { name: "Code →" })).toHaveAttribute(
 		"href",
-		"https://github.com/manavpatel1310"
+		"https://github.com/manavpatel1310/Personalblog"
+	);
+	const ecospaceCard = page.getByRole("article").filter({ hasText: "Ecospace" });
+	await expect(ecospaceCard.getByRole("link", { name: "Code →" })).toHaveAttribute(
+		"href",
+		"https://github.com/manavpatel1310/Ecospace"
 	);
 });
 

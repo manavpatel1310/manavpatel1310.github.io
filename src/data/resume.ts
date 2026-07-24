@@ -121,26 +121,16 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		name: "Personal Portfolio & Blog",
-		description: "This site — a production-ready portfolio and blog, static-first with zero JS by default.",
+		name: "Personal Blog & CMS",
+		description: "Production-ready blog platform, static-first with zero JavaScript by default.",
 		highlights: [
 			"Astro + React islands in strict TypeScript: hydrates React only where interactivity is needed.",
 			"Sanity headless CMS with graceful fallback rendering — content updates without redeploys.",
 			"End-to-end Playwright coverage of core user flows; deployed on Vercel.",
 		],
 		technologies: ["Astro", "React", "TypeScript", "Tailwind CSS v4", "Preline UI", "Sanity", "Playwright"],
-		liveUrl: "https://manavpatel1310.github.io/",
-		codeUrl: "https://github.com/manavpatel1310",
-	},
-	{
-		name: "Drive Watch System",
-		description: "Real-time driver-monitoring system that detects driver actions and triggers timely alerts.",
-		highlights: [
-			"Processes 30 frames per second with a CNN classifier built in Keras.",
-			"Tuned action-detection threshold to a 95% accuracy rate for alarm triggering.",
-		],
-		technologies: ["Python", "OpenCV", "Keras", "CNN", "Pygame"],
-		codeUrl: "https://github.com/manavpatel1310",
+		liveUrl: "https://personalblog-omega-seven.vercel.app/",
+		codeUrl: "https://github.com/manavpatel1310/Personalblog",
 	},
 	{
 		name: "Ecospace — Eco-Friendly Marketplace",
@@ -151,6 +141,67 @@ export const projects: Project[] = [
 			"Dockerized backend services for consistent deployment across environments.",
 		],
 		technologies: ["Python", "TypeScript", "Flutter", "Docker", "MySQL", "PostgreSQL", "Figma"],
+		codeUrl: "https://github.com/manavpatel1310/Ecospace",
+	},
+	{
+		name: "Simple S3 Storage",
+		description: "Self-hostable storage manager that turns any S3-compatible API into a managed storage solution.",
+		highlights: [
+			"TypeScript client and server, cleanly separated for independent deployment.",
+			"Works with AWS S3 or any S3-compatible provider — self-host or deploy to any platform.",
+		],
+		technologies: ["TypeScript", "AWS S3", "Node.js"],
+		codeUrl: "https://github.com/manavpatel1310/s3-storage",
+	},
+	{
+		name: "Home Finder Lite",
+		description: "Real-estate platform where agents manage and market property listings and rentals.",
+		highlights: [
+			"Agent accounts with secure authentication and a dashboard for managing listings and rentals.",
+			"Public search across listings, rentals, and agents with detailed property views and photo galleries.",
+			"FileStack-powered photo management and a custom responsive UI built without CSS frameworks.",
+		],
+		technologies: ["JavaScript", "Node.js", "EJS", "SCSS", "FileStack"],
+		codeUrl: "https://github.com/manavpatel1310/FindHome",
+	},
+	{
+		name: "Travel Location App",
+		description: "Community platform where travelers share destinations, tips, and insights worldwide.",
+		highlights: [
+			"Node.js + Express backend with MongoDB Atlas storing user-generated content.",
+			"Responsive EJS/Bootstrap front-end; deployed on Heroku.",
+		],
+		technologies: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap", "Heroku"],
+		codeUrl: "https://github.com/manavpatel1310/TravelLocationApp",
+	},
+	{
+		name: "MyFitnessApp",
+		description: "Cross-platform fitness and nutrition tracking app for personalized health goals.",
+		highlights: [
+			"Personalized workout plans, meal planning, and macro/micronutrient tracking.",
+			"Progress analytics with charts, plus data sync with wearables and smartwatches.",
+		],
+		technologies: ["Flutter", "Dart"],
+		codeUrl: "https://github.com/manavpatel1310/MyFitnessApp",
+	},
+	{
+		name: "LoadBalancerX",
+		description: "Multi-server load balancing system written in C, distributing client requests for optimal throughput.",
+		highlights: [
+			"TCP/IP socket programming with multi-process concurrency to handle simultaneous clients.",
+			"Dynamic request distribution across servers to prevent overload, on Debian Linux.",
+		],
+		technologies: ["C", "TCP/IP", "Linux"],
+		codeUrl: "https://github.com/manavpatel1310/LoadBalancerX",
+	},
+	{
+		name: "Drive Watch System",
+		description: "Real-time driver-monitoring system that detects driver actions and triggers timely alerts.",
+		highlights: [
+			"Processes 30 frames per second with a CNN classifier built in Keras.",
+			"Tuned action-detection threshold to a 95% accuracy rate for alarm triggering.",
+		],
+		technologies: ["Python", "OpenCV", "Keras", "CNN", "Pygame"],
 		codeUrl: "https://github.com/manavpatel1310",
 	},
 ];
