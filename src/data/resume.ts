@@ -1,8 +1,8 @@
 export const profile = {
 	name: "Manav Patel",
-	role: "Full Stack Developer",
+	role: "Full Stack Software Engineer",
 	tagline:
-		"I design, build, and ship fast, accessible web applications — React and TypeScript on the front, Java/Node.js and AWS on the back.",
+		"I build software end to end — polished React/TypeScript interfaces, robust Java and Node.js services and APIs, and scalable infrastructure on AWS. Equally at home in the UI layer, the backend, and the systems underneath.",
 	location: "Ottawa, Ontario, Canada",
 	email: "manavpatel731@gmail.com",
 	phone: "(343) 987-5270",
@@ -12,9 +12,9 @@ export const profile = {
 };
 
 export const about = [
-	"I'm a Full Stack Developer with 2+ years of hands-on experience building public-facing, content-driven websites and customer-facing web applications. I currently build financial-sector applications at TechMero, working across React/TypeScript front-ends, Java Spring Boot and Node.js services, and AWS infrastructure.",
-	"I've worked across the full SDLC in both startup and enterprise-style environments — optimizing large-scale SQL databases, debugging production issues, integrating third-party hardware like biometric Face ID devices, and delivering end-to-end client projects independently. I'm comfortable switching between stacks, whether that's .NET backend services, React front-ends, Node.js systems, or Linux-based C programming.",
-	"I'm an AWS Certified Solutions Architect – Associate with a test-driven mindset — I reach for Playwright early, keep Git workflows clean, and use AI-assisted development tools like Claude Code and GitHub Copilot to move faster without sacrificing quality.",
+	"I'm a Full Stack Software Engineer with 2+ years of experience shipping production software across the stack — customer-facing interfaces, backend services and APIs, and the data and cloud layers behind them. I currently build financial-sector applications at TechMero, designing React/TypeScript front-ends and architecting Java Spring Boot and Node.js services over SQL Server and MongoDB, deployed on AWS.",
+	"My work isn't limited to the browser. I've engineered Node.js microservices on AWS Lambda, optimized SQL and Oracle stored procedures against 5M+ record datasets, written a multi-server TCP/IP load balancer in C on Linux, built a real-time CNN-based driver-monitoring system in Python, and integrated biometric Face ID hardware into enterprise .NET systems. Whether the problem lives in the UI, the API, the database, or the systems layer, I'm comfortable owning it end to end.",
+	"I'm an AWS Certified Solutions Architect – Associate with a test-driven mindset — Playwright for end-to-end coverage, JUnit, TestNG, and Mockito on the backend, clean Git workflows, and Jenkins CI/CD pipelines. I use AI-assisted development tools like Claude Code and GitHub Copilot to move faster without sacrificing quality.",
 ];
 
 export const skillGroups = [
