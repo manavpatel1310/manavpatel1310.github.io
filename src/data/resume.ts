@@ -14,7 +14,7 @@ export const profile = {
 export const about = [
 	"I'm a Full Stack Software Engineer with 2+ years of experience shipping production software across the stack — customer-facing interfaces, backend services and APIs, and the data and cloud layers behind them. I currently build financial-sector applications at TechMero, designing React/TypeScript front-ends and architecting Java Spring Boot and Node.js services over SQL Server and MongoDB, deployed on AWS.",
 	"My work isn't limited to the browser. I've engineered Node.js microservices on AWS Lambda, optimized SQL and Oracle stored procedures against 5M+ record datasets, written a multi-server TCP/IP load balancer in C on Linux, built a real-time CNN-based driver-monitoring system in Python, and integrated biometric Face ID hardware into enterprise .NET systems. Whether the problem lives in the UI, the API, the database, or the systems layer, I'm comfortable owning it end to end.",
-	"I'm an AWS Certified Solutions Architect – Associate with a test-driven mindset — Playwright for end-to-end coverage, JUnit, TestNG, and Mockito on the backend, clean Git workflows, and Jenkins CI/CD pipelines. I use AI-assisted development tools like Claude Code and GitHub Copilot to move faster without sacrificing quality.",
+	"I'm an AWS Certified Solutions Architect – Associate with a test-driven mindset — Playwright for end-to-end coverage, JUnit, TestNG, and Mockito on the backend, clean Git workflows, and Jenkins CI/CD pipelines.",
 ];
 
 export const skillGroups = [
